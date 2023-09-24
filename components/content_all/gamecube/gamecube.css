@@ -1,0 +1,23 @@
+.gamecube{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    margin: 0 2% 0 2%; 
+
+     
+}
+
+@media (max-width:750px){
+  
+    .gamecube{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    
+     }
+     

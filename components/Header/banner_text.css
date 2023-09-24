@@ -1,0 +1,23 @@
+ .banner__text{
+   position: absolute;
+   margin-top:15%;
+   margin-left: 15px;
+   top: 10px;
+   left: 10px;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Chakra Petch', sans-serif;
+    color: black;
+    
+ }
+
+  /*Responsive Code*/
+
+  @media (max-width:750px){
+  .banner__text{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+  }
+        }
+        

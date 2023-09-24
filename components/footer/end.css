@@ -1,0 +1,22 @@
+.end{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin: 0  0 0 0;
+}
+ 
+/*Responsive Code  Start Here*/
+
+@media (max-width:750px){
+
+ .end{
+   margin: 0 2% 0 2%;
+ }
+
+ .end p{
+   font-size: 16px;
+  
+ }
+    }
+    

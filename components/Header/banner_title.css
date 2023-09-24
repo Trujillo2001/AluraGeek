@@ -1,0 +1,22 @@
+ .banner__title{
+ 
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Chakra Petch', sans-serif;
+    color: green;
+    color: black;
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+ }
+ /*Responsive Code*/
+
+ @media (max-width:750px){
+  
+  .banner__title{
+   font-size: 60px;
+   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-width: 1px;
+  }
+      }
+      

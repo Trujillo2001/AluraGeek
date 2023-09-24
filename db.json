@@ -1,0 +1,82 @@
+ { "Productos" : [
+        { "name":"The Legend of Zelda: Ocarina of Time" ,
+        "image":"img/zelda_n64.jpg" ,
+        "price":"$10.00" ,
+        "id":1
+        },
+        { "name":"Mortal Kombat 4" ,
+        "image":"img/mortalkombat4_n64.jpg" ,
+        "price":"$10.00" ,
+        "id": 2
+        },
+        { "name":"Mario Party" ,
+        "image":"img/marioparty_n64.jpg" ,
+        "price": "$10.00",
+        "id": 3
+        },
+        { "name":"Super Smashs Bros" ,
+        "image":"img/supersmashsbros_n64.jpg" ,
+        "price":"$10.00" ,
+        "id": 4
+        },
+        { "name": "Super Mario 64",
+        "image":"img/supermario_n64.jpg" ,
+        "price":"$10.00" ,
+        "id": 5
+        },
+        { "name": "Baten Kaitos",
+        "image": "img/baten katyo_gc.jpg",
+        "price":"$15.00" ,
+        "id": 6 
+        },
+
+        { "name":"Luigi Mansion" ,
+        "image": "img/Luigi mansion_gc.jpg",
+        "price":"$15.00" ,
+        "id": 7
+        },
+        { "name": "Pikmin",
+        "image":"img/pikmin_gc.jpg" ,
+        "price":"$15.00" ,
+        "id": 8
+        },
+        { "name":"Pokemon XD" ,
+        "image": "img/pokemonxd_gc.jpg" ,
+        "price":"$15.00" ,
+        "id":9
+        },
+        { "name":"Metroid 2" ,
+        "image":"img/Metroid 2_gc.jpg"  ,
+        "price":"$15.00" ,
+        "id": 10
+        },
+
+        { "name":"GTA San Andres" ,
+        "image":"img/gta_sanAndreas_ps2.jpg"  ,
+        "price": "$20.00",
+        "id": 11 
+        },
+        { "name":"Crash of Titants" ,
+        "image":"img/crashoftitantas_ps2.jpg" ,
+        "price":"$20.00" ,
+        "id": 12 
+        },
+ 
+        { "name": "Shadow of Colossus",
+        "image": "img/shadowcolossus_ps2.jpg" ,
+        "price": "$20.00",
+        "id": 13
+        },
+        { "name":"God of War" ,
+        "image": "img/gow.jpg",
+        "price":"$20.00" ,
+        "id": 14 
+        },
+        { "name": "DBZ Budokai Tenkaichi",
+        "image": "img/dbzbudokaitenkaichi_ps2.jpg",
+        "price":"$20.00" ,
+        "id": 15 
+        }
+     
+
+]}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap"   rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e31451262.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="components__products/products_title.css">
+    <link rel="stylesheet" href="components/Header/btn_searching.css">
+    <link rel="stylesheet" href="components/Header/logo.css">
+    <link rel="stylesheet" href="components/Header/banner_img.css">
+    <link rel="stylesheet" href="components/Header/banner_text.css">
+    <link rel="stylesheet" href="components/Header/login_btn.css">
+    <link rel="stylesheet" href="components/Header/banner_title.css">
+    <link rel="stylesheet" href="components/Header/banner_content.css">
+    <link rel="stylesheet" href="components__products/front__products.css">
+    <link rel="stylesheet" href="components__products/btn__producst_All.css">
+
+    <link rel="stylesheet" href="components/content_all/content_title.css">
+    <link rel="stylesheet" href="components/content_all/content_all.css">
+    <link rel="stylesheet" href="components/content_all/n64/content_n64.css">
+    <link rel="stylesheet" href="components/content_all/n64/btn_vertodo.css">
+    <link rel="stylesheet" href="components/content_all/n64/img_n64.css">
+    <link rel="stylesheet" href="components/content_all/n64/list_n64.css">
+    <link rel="stylesheet" href="components/content_all/n64/n64.css">
+    <link rel="stylesheet" href="components/content_all/n64/n64_text.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/content_gamecube.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/btn_vt.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/gamecube_textt_all.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/gamecube.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/img_gamecube.css">
+    <link rel="stylesheet" href="components/content_all/gamecube/list_gamecube.css">
+    <link rel="stylesheet" href="components/content_all/ps2/content_ps2.css">
+    <link rel="stylesheet" href="components/content_all/ps2/img_ps2.css">
+    <link rel="stylesheet" href="components/content_all/ps2/btn__vt.css">
+    <link rel="stylesheet" href="components/content_all/ps2/list_ps2.css">
+    <link rel="stylesheet" href="components/content_all/ps2/ps2.css">
+    <link rel="stylesheet" href="components/content_all/ps2/ps2_text_all.css">
+
+    <link rel="stylesheet" href="components/footer/informacion_title.css">
+    <link rel="stylesheet" href="components/footer/end.css">
+    <link rel="stylesheet" href="components/footer/container_form.css">
+    <link rel="stylesheet" href="components/footer/rodapie.css">
+    <link rel="stylesheet" href="components/footer/rodapie_nav.css">
+
+    <link rel="stylesheet" href="agregar_product.css">
+ 
+    <title>Agregar Nuevo Producto</title>
+    </head>
+    <body>
+        <header>
+         <div class="logo">
+            <img class="joystick" src="img/joystick.png" alt="joyststick">
+             <img class="aluraGeek" src="img/Texto.png" alt="texto">
+            
+         </div>
+         <div>
+            <button class="login__btn"><a class="logn__index" href="file:///C:/Users/pc/Documents/E-commerce_ONE/login.html?nombre=&email=&mensaje=&enviar=Enviar#log">Login</a></button>
+         </div>
+         <div class="buscar">
+            <input type="search"  placeholder="¿Que deseas buscar?">
+         
+            <div class="btn__buscar">
+                <i class="fas fa-search icon"></i>
+            </div>
+        </div>  
+      
+        </header>
+        <main>
+            <div class="conteiner__add">
+                <h1>Crear Nuevo Producto</h1>
+                <div class="form__add">
+                <form> 
+                  <ul>
+                    <li><label for="">Url de la Imagen</label>
+                        <input type="text" required >
+                    </li>
+                    <li><label for="">Nombre del Producto</label
+                        ><input type="text" required>
+                    </li>
+                    <li><label for="">Precio del Producto</label>
+                        <input type="text" required>
+                    </li>
+                    <li><label for="">Descripcion</label>
+                        <textarea name="Descripcion" cols="1" rows="2"></textarea>
+                    </li>
+                    <li><button>Crear</button></li>
+                  </ul>
+                </form>
+                </div>
+            </div>
+        </main>
+        <footer class="rodapie" id="contacto">
+            <h4 class="informacion__titulo">Contactame</h4>
+            <div class="logo__footer">
+                <img src="img/joystick.png" alt="joystick">
+                <img class="aluraGeek__footer" src="img/Texto.png" alt="texto">
+            </div>
+            <div class="align"> 
+            <div class="nav__rodapie">
+                <ul class="nav__rodapie">
+                    <li class="rodapie__list"><a class="nav__list__text" href="#">Quienes Somos</a></li>
+                    <li class="rodapie__list"><a class="nav__list__text" href="#">Politica de Privacidad</a></li>
+                    <li class="rodapie__list"><a class="nav__list__text" href="#">Nuestras Tiendas</a></li>
+                    <li class="rodapie__list"><a class="nav__list__text" href="#">Anuncia Aqui</a></li>
+                
+                </ul>
+            </div>
+            <div class="container">
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="xxxx@email.com" id="email" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="asunto">Asunto</label>
+                        <textarea type="text" placeholder="asunto" id="asunto"></textarea>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button>Submit</button>
+                </form>
+                <script src="components/footer/validacionfooter.js"></script>
+            </div>
+            </div>
+            <div class="end">
+                <p>Desarrollado por Kevin Trujillo &#9798;
+                            Derechos Reservados 2023&#169;</p>
+                            </div>
+        </footer>
+    </body>
+    </html>

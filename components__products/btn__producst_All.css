@@ -1,0 +1,33 @@
+.btn-product{
+ 
+ 
+    border: none;
+    background:  #b29ef0;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+   
+}
+
+.btn-product__text{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Responsive code start here*/
+
+@media (max-width:750px){
+    .btn-product{
+     margin: 15% 0 15% 30%;   
+     width: 150px;
+     height: 25px;
+   }
+
+   .btn-product__text{
+    font-size: 12px;
+   }
+}
+

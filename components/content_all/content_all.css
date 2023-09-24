@@ -1,0 +1,22 @@
+ 
+/*
+.content__all{
+    background: linear-gradient(120deg, #e22dfd, #fffaab);
+   
+}*/
+
+.content__all{
+    padding: 0 2% 5% 5%;
+}
+
+
+/*Responsive Code*/
+@media (max-width:750px){
+  
+.content__all{
+    padding: 10% 1% 10% 0;
+}
+    
+     }
+     
+ 

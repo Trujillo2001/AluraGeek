@@ -1,0 +1,22 @@
+.informacion__titulo{
+
+    margin: 10% 0 8% 40%;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    color: green;
+    
+}
+
+/*Responsive Code  Start Here*/
+
+@media (max-width:750px){
+
+   .informacion__titulo{
+      font-size: 40px;
+      margin: 10% 0 10% 15%;
+      padding: 25% 0 0 0;
+   
+    }
+ }
+ 

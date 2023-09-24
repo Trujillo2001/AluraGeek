@@ -1,0 +1,99 @@
+main{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(120deg, #6c3483, #58d68d);
+    height: 100vh;}
+
+
+.conteiner__add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5% 0;
+    padding: 5% 0 0 0 ;
+}
+
+.conteiner__add h1{
+    margin: 2% 0 4% 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.conteiner__add form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+ 
+
+
+.conteiner__add input{
+    width: 100%;
+    padding: 5px 50px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    border-radius: 50px;
+
+}
+
+ .conteiner__add li{
+    margin: 50px 0 50px 0;
+ }
+
+ .conteiner__add label{
+    position: relative;
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+    pointer-events: none;
+    transition: .5s;
+ }
+
+ .conteiner__add button{
+    position: absolute;
+    left: 45%;
+    margin: 0 5% 0 0 ;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background:#b29ef0;
+    color: white;
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+ }
+
+/*Responsive Code  Start Here*/
+
+@media (max-width:750px){
+
+    .conteiner__add h1{
+        font-size: 26px;
+        padding-top: 40%;
+
+    }
+
+    .conteiner__add input{
+     width: auto;
+     height: auto;
+   }
+
+   .conteiner__add label{
+    font-size: 22px;
+   }
+
+   .conteiner__add button{
+    position:absolute;
+    left: 23%;
+    font-size: 22px;
+ 
+   }
+}
+

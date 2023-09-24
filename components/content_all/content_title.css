@@ -1,0 +1,19 @@
+.content__title {
+    margin: 5% 0 3% 2%;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    color: green;
+    
+}  
+
+@media (max-width:750px){
+  
+    .content__title{
+       font-size: 40px;
+       margin: 10% 0 6% 0;
+        
+    }
+    
+     }
+     

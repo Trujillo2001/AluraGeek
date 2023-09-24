@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap"   rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e31451262.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="login_form.css">
+   
+    <link rel="stylesheet" href="components/Header/btn_searching.css">
+    <link rel="stylesheet" href="components/Header/login_btn.css">
+    <link rel="stylesheet" href="components/Header/logo.css">
+
+    <link rel="stylesheet" href="components/content_all/content_all.css">
+    <link rel="stylesheet" href="components/content_all/content_title.css">
+
+    <link rel="stylesheet" href="components/footer/informacion_title.css">
+    <link rel="stylesheet" href="components/footer/end.css">
+    <link rel="stylesheet" href="components/footer/container_form.css">
+    <link rel="stylesheet" href="components/footer/rodapie.css">
+    <link rel="stylesheet" href="components/footer/rodapie_nav.css">
+ 
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+        <div class="logo">
+           <img class="joystick"   src="img/joystick.png" alt="joyststick">
+            <img class="aluraGeek"  src="img/Texto.png" alt="texto">
+           
+        </div>
+        <div>
+           <button class="login__btn"><a class="logn__formpage" href="#log">Login</a></button>
+        </div>
+        <div class="buscar">
+           <input type="search"  placeholder="¿Que deseas buscar?">
+        
+           <div class="btn__buscar">
+               <i class="fas fa-search icon"></i>
+           </div>
+       </div>
+    </header>
+    <main>
+     <div class="form__login" id="log">
+        <h1 class="login__title">Inicio Sesion</h1>
+        <form method="post" id="form" class="form">
+         <div class="form-control" >
+            <input type="text" require id="email" >
+            <label for="email">Correo Electronico</label>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+         </div>
+         <div class="form-control">
+            <input type="password" required id="password">
+            <label for="password">Ingresar Contraseña</label>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+         </div>
+         <div class="recordar">Olvido su Contraseña?</div>
+         <button id="btn__form" >Submit</button>
+         <div class="registrarse">
+            Quiero hacer el registro <a href="file:///C:/Users/pc/Documents/E-commerce_ONE/register.html?#log">Registro</a>
+         </div>
+        </form>
+     </div>
+     <script src="login.js"></script>
+    </main>
+    <footer class="rodapie" id="contacto">
+        <h4 class="informacion__titulo">Contactame</h4>
+        <div class="logo__footer">
+            <img src="img/joystick.png" alt="joystick">
+            <img class="aluraGeek__footer" src="img/Texto.png" alt="texto">
+        </div>
+        <div class="align"> 
+        <div class="nav__rodapie">
+            <ul class="nav__rodapie">
+                <li class="rodapie__list"><a class="nav__list__text" href="#">Quienes Somos</a></li>
+                <li class="rodapie__list"><a class="nav__list__text" href="#">Politica de Privacidad</a></li>
+                <li class="rodapie__list"><a class="nav__list__text" href="#">Nuestras Tiendas</a></li>
+                <li class="rodapie__list"><a class="nav__list__text" href="#">Anuncia Aqui</a></li>
+            
+            </ul>
+        </div>
+        <div class="container__footer">
+            <form id="form" class="form">
+                <div class="form-control__footer">
+                    <label for="email">Email</label>
+                    <input class="email__footer" type="email" placeholder="xxxx@email.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control__footer">
+                    <label for="asunto">Asunto</label>
+                    <textarea class="asunto__footer" type="text" placeholder="asunto" id="asunto"></textarea>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button class="contactame__form">Submit</button>
+            </form>
+            <script src="components/footer/validacionfooter.js"></script>
+        </div>
+        </div>
+        <div class="end">
+            <p>Desarrollado por Kevin Trujillo &#9798;
+                        Derechos Reservados 2023&#169;</p>
+                        </div>
+    </footer>
+</body>
+</html>

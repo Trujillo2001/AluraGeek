@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap"   rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e31451262.js" crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="components/Header/">
+    <link rel="stylesheet" href="register.css">
+   
+    <link rel="stylesheet" href="components/Header/btn_searching.css">
+    <link rel="stylesheet" href="components/Header/login_btn.css">
+    <link rel="stylesheet" href="components/Header/logo.css">
+
+    <link rel="stylesheet" href="components/content_all/content_all.css">
+    <link rel="stylesheet" href="components/content_all/content_title.css">
+
+   
+ 
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="joystick"   src="img/joystick.png" alt="joyststick">
+             <img class="aluraGeek"  src="img/Texto.png" alt="texto">
+            
+         </div>
+         <div>
+            <button class="login__btn"><a class="logn__formpage" href="#log">Login</a></button>
+         </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h2>Crear cuenta</h2>
+            </div>
+            <form id="form" class="form" data-form >
+                <div class="form-control">
+                    <label for="username">Usuario</label>
+                    <input type="text" placeholder="Ingresar Nombre" id="username" required data-nombre/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xxxx@email.com" id="email" required data-email />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password" required data-password/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Repetir password</label>
+                    <input type="password" placeholder="Repetir Password" id="password2" required data-password/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <script src="register.js"></script>
+        <script type="module" src="controllers/registrarcliente.js"></script>
+    </main>
+    <footer>
+    </footer>
+  
+</body>
+</html>

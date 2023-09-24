@@ -1,0 +1,18 @@
+.front__products{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  margin: 10% 0 10% 0;
+  gap: 1000px;
+  background-color: indianred;
+}
+
+@media (max-width:750px){
+  .front__products{
+    display: block;
+    background: none;
+    margin: 35% 0 0 0;
+ 
+ }
+}
+

@@ -1,0 +1,40 @@
+
+.Btn__vt{
+
+    position: absolute;
+    left: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end; 
+    
+    
+}
+
+.Btn_vertodo_n64{
+   display: flex;
+   align-items: end;
+   border-radius: 3px;
+   border: none;
+   background-color: indianred;
+   color: white;
+   margin-top: 5px;
+    
+    
+}
+
+.Btn_vertodo_n64 a{
+   text-decoration: none;
+   color: white;
+}
+
+@media (max-width:750px){
+  
+ .Btn_vertodo_n64{
+   
+   position: absolute;
+   top: 30%;
+   margin:10px 0px 0px 0px;
+   width: 80px;
+ }
+    }
+    

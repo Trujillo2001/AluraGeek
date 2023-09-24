@@ -1,0 +1,50 @@
+.nav__rodapie{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 0;
+     
+    
+}
+
+.rodapie__list{
+    
+    margin-bottom: 10%;
+    margin-top: 25%;
+    
+     
+}
+
+.nav__list__text{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+     
+    
+
+}
+
+/*Responsive Code  Start Here*/
+
+@media (max-width:750px){
+
+.nav__rodapie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+   .nav__list__text{
+    font-size: 20px;
+     
+   }
+
+   .rodapie__list{
+    margin-top: 0 0 0 0;
+
+   }
+ }
+ 

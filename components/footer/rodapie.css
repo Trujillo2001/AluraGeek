@@ -1,0 +1,44 @@
+.rodapie{
+ 
+    padding:5% 0 0 0;
+    background-color: #b29ef0;
+     
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.logo__footer{
+     display: flex;
+     justify-content: center;
+     
+ 
+    }
+
+.aluraGeek__footer{
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+ /*Responsive Code  Start Here*/
+
+@media (max-width:750px){
+
+    .rodapie{
+        padding: 1% 0 0 0;
+    }
+
+    .align{
+     margin: 0 0 0 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    }
+ }
+ 

@@ -1,0 +1,41 @@
+
+.Btn__vt{
+
+    position: absolute;
+    left: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end; 
+    
+}
+
+.Btn_vertodo_gc{
+   display: flex;
+   align-items: end;
+   border: none;
+   background-color: indianred;
+   color:white;
+   margin-top: 5px;
+   border-radius: 3px;
+    
+    
+}
+
+.Btn_vertodo_gc a{
+    text-decoration: none;
+    color: white;
+ }
+
+/*Responsive Code*/
+
+ @media (max-width:750px){
+  
+    .Btn_vertodo_gc{
+      
+      position: absolute;
+      top: 30%;
+      margin:10px 0px 0px 0px;
+      width: 80px;
+    }
+       }
+       
